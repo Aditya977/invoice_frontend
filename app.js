@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/api/invoices/1")
+fetch("http://localhost:3000/api/invoices/")
     .then(res => res.json())
     .then(invoices => {
         const output = document.getElementById("output");
